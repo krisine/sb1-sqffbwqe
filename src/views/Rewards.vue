@@ -12,7 +12,7 @@ const activities = ref<Activity[]>([
     points: 50,
     startDate: new Date().toISOString(),
     endDate: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(),
-    image: 'https://example.com/images/community-cleanup.jpg',
+    image: '/green.png',
     participants: 24,
   },
   {
@@ -22,7 +22,7 @@ const activities = ref<Activity[]>([
     points: 30,
     startDate: new Date(Date.now() + 1 * 24 * 60 * 60 * 1000).toISOString(),
     endDate: new Date(Date.now() + 8 * 24 * 60 * 60 * 1000).toISOString(),
-    image: 'https://example.com/images/quiz.jpg',
+    image: '/green.png',
     participants: 45,
   },
   {
@@ -32,7 +32,7 @@ const activities = ref<Activity[]>([
     points: 70,
     startDate: new Date(Date.now() - 2 * 24 * 60 * 60 * 1000).toISOString(),
     endDate: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000).toISOString(),
-    image: 'https://example.com/images/handmade-contest.jpg',
+    image: '/green.png',
     participants: 18,
   },
   {
@@ -42,7 +42,7 @@ const activities = ref<Activity[]>([
     points: 20,
     startDate: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString(),
     endDate: new Date(Date.now() + 6 * 24 * 60 * 60 * 1000).toISOString(),
-    image: 'https://example.com/images/swap-market.jpg',
+    image: '/green.png',
     participants: 32,
   },
   {
@@ -52,7 +52,7 @@ const activities = ref<Activity[]>([
     points: 100,
     startDate: new Date(Date.now() + 5 * 24 * 60 * 60 * 1000).toISOString(),
     endDate: new Date(Date.now() + 10 * 24 * 60 * 60 * 1000).toISOString(),
-    image: 'https://example.com/images/volunteer-training.jpg',
+    image: '/green.png',
     participants: 12,
   },
 ]);
